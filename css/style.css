@@ -1,0 +1,104 @@
+body {
+    background-color: #F5F5F5FF;
+}
+
+* {
+    transition: 0.5s;
+}
+
+.container-fluid {
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.container {
+    background-color: #d3d3d3;
+}
+
+a {
+    text-decoration: none;
+    color: #05455d;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #38503f;
+}
+
+.menu{
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+.logo {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #18af98;
+    border-color: #18af98;
+}
+
+.btn-primary:hover {
+    background-color: #05455d;
+}
+
+.urunImage {
+    border-radius: 10px;
+    border-bottom: 10px solid blanchedalmond;
+    overflow: hidden;
+}
+
+.urunImage img {
+    height:200px;
+    width: 100%;
+}
+
+.urunTit {
+    padding: 10px;
+    color: #05455d;
+    font-size: 16px;
+    font-family: "Andale Mono";
+}
+
+.urunFooter {
+    padding-top: 10px;
+}
+
+.firmaCard {
+    height: 100px;
+    width: 90%;
+    background-color: white;
+    background-image: url("../img/ikonBg.jpeg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-clip: border-box;
+    background-blend-mode: darken;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.44);
+    padding-top: 20px;
+}
+
+.about {
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.aboutTitle {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    color: #05455d;
+    width: 90%;
+    border-bottom: 2px solid rgba(146, 112, 178, 0.44);
+    margin: 0 auto;
+}
+
+.aboutDesc {
+    padding-top: 20px;
+    color: cadetblue;
+    padding-left: 10px;
+}
